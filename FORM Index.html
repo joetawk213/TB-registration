@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Online Registration</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f0f0f0; }
+    .container { max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    input, button { width: 100%; padding: 10px; margin: 10px 0; }
+    button { background: #007bff; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Register</h2>
+    <form action="https://formsubmit.co/joe.tawk.213@gmail.com" method="POST">
+      <!-- FormSubmit protection -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+      
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="message" placeholder="Optional Message" />
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
+
